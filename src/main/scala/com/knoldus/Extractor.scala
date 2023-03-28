@@ -38,12 +38,3 @@ class URLParser {
     }
   }
 }
-
-//Driver class of the Extractor (For printing the result on the console)
-object Driver extends App {
-  private val url = "https://knoldus.keka.com/#/me/attendance/logs"
-  private val urlParser = new URLParser
-  println(urlParser.inputURL(url))
-}
-
-
